@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Images/Flora.png" sizes="16x16">
+    <title>Flora</title>
+    <style type="text/css">
+    </style>
+</head>
+
+<body>
+    <nav style="text-align: center; margin-top: 1%;">
+        <img src="Images/logo.png" alt="logo" style="width: 20rem; height: 10rem;">
+    </nav>
+
+    <div class="container" id="main">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-md-12">
+                <div class="card m-4">
+                    <div class="card-body" id="box-cont" style="text-align: center;">
+                        <h3 class="card-title py-3 title" id="detect">Flower Recognition Application
+                        </h3>
+                        <p class="px-3">
+                            To identify a <strong><span class="yellow">Daisy</span>, <span style="color: pink;">Rose</span>, <span class="yellow">Dandelion</span>, <span style="color: pink;">Tulip</span>, or <span class="yellow">Sunflower</span></strong>, either use your web camera and show the flower
+                            or upload an image from your device.
+                        </p>
+                        <label for="webcam" class="ps-3 pt-3 pb-3" style="color: #fcfcfc">USE WEBCAM:</label>
+                        <button id="webcam" type="button" class="btn btn-primary ms-3"
+                            onclick="useWebcam()">Start
+                            webcam
+                        </button>
+                        <div id="webcam-container" class="px-3"></div>
+                        <div id="label-container" class="px-3 pt-3" style="color: #fcfcfc;"></div>
+                        <label class="p-3" for="fruitimg" style="color: #fcfcfc">UPLOAD IMAGE:</label>
+                        <div class="input-group px-3 pb-3" id="inputimg" style="text-align: center;">
+                            <input type="file" class="form-control" accept="image/*" id="fruitimg">
+                            <button class="btn btn-primary" id="loadBtn">Load</button>
+                        </div>
+                        <div id="uploadedImage" class="px-3"></div>
+                        <div id="label-container-cam" class="px-3 pt-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+
+        <script src=https://unpkg.com/parse/dist/parse.min.js></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="script.js"></script>
+    
+</body>
+
+</html>

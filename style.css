@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa';
+}
+
+.title{
+    font-weight: 700;
+    letter-spacing: 0.1px;
+    word-spacing: 0.1px;
+    color: #fcfcfc;
+}
+
+#brand{
+    font-weight: 700;
+}
+
+#detect{
+    font-weight: 700;
+    color: #fcfcfc;
+}
+
+body{
+    background: url(Images/background.png) no-repeat fixed center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+        
+}
+.yellow{
+    color: #d38c09;
+}
+.red{
+    color: rgb(156, 34, 61);
+}
+.orange{
+    color:rgb(230, 105, 3);
+}
+
+p{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #fcfcfc;
+}
+#main{
+    margin-top: 40px;
+}
+@media (min-width: 992px) {
+    #main{
+        margin-top: 60px;
+    }
+}
+
+.card{
+    border: none;
+    background-color: rgb(0, 0, 0, 0.7);
+    border-radius: 12px;
+}
