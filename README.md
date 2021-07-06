@@ -22,4 +22,4 @@ Teachable machine is a web-based tool that can be used to generate 3 types of mo
 
 SashiDo is a lovely backend as a service platform with a plethora of built-in features. I just utilised the Files feature in my project to store photos provided by users.
 
-![](Images/SashiDo.png)
+![](Images/SashiDo.PNG)
