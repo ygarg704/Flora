@@ -2,6 +2,8 @@
  
 A web application that can identify a flower(daisy, dandelion, sunflower, rose and tulip for now). It's an automated tool that can scan through flowers.
 
+:white_check_mark: Check out the project [here](https://yashgarg.xyz/Flora/)
+
 ## Demo
 
 Watch the demo video here:
@@ -20,4 +22,3 @@ Teachable machine is a web-based tool that can be used to generate 3 types of mo
 
 SashiDo is a lovely backend as a service platform with a plethora of built-in features. I just utilised the Files feature in my project to store photos provided by users.
 
-:white_check_mark: Check out the project [here](yashgarg.xyz/Flora)
