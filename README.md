@@ -6,4 +6,4 @@ A web application that can identify a flower(daisy, dandelion, sunflower, rose a
 
 Watch the demo video here:
 
-![alt text](Flora_Demo.mp4)
+[alt text](Flora_Demo.mp4)
